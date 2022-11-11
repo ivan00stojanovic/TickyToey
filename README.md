@@ -1,6 +1,6 @@
 # [TickyToey](https://tickytoey.netlify.app)
 
-A pair programming project made by [@ivan00stojanovic](https://github.com/ivan00stojanovic) and [@meghannfh](https://github.com/meghannfh)
+A pair programming project made by [ivan00stojanovic](https://github.com/ivan00stojanovic) and [meghannfh](https://github.com/meghannfh)
 to revise our front end skills while also  experiencing coding in a team setting.
 
 # Tech stack
