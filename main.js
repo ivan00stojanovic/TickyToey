@@ -17,7 +17,6 @@ const tiePlaceholder = document.getElementById('tie-score')
 const restartBtn = document.getElementById('restart-after-win')
 const clearScore = document.getElementById('clear-score')
 
-
 const winningPatterns = [
     [1, 2, 3],
     [1, 5, 9],
@@ -57,7 +56,7 @@ boxes.forEach((box) => {
             if(checkForWinner(playerOneChoices)){
                 winnerDeclaration.classList.toggle('show-winner')
                 winnerText.innerText = 'The winner is player one!'
-                winnerText.style.color = '#F2B147'
+                winnerText.style.color = '#3CC4BF'
                 //playerOneScore++
                 addPlayerOneScore()
                 // line below shows us the score increment before refreshing
@@ -65,7 +64,7 @@ boxes.forEach((box) => {
             } else if(checkForWinner(playerTwoChoices)){
                 winnerDeclaration.classList.toggle('show-winner')
                  winnerText.innerText = 'The winner is player two!'
-                 winnerText.style.color = '#3CC4BF'
+                 winnerText.style.color = '#F2B147' 
                  addPlayerTwoScore()
                 playerTwoPlaceholder.innerText = playerTwoScore
             }else if(clickCounter === 9){
@@ -78,8 +77,6 @@ boxes.forEach((box) => {
         }   
     }, {once:true})
 })
-
-
 
 //keep track of score, testing innerText
 if(!sessionStorage.getItem('p1Score')){

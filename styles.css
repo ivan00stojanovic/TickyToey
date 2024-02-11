@@ -71,6 +71,7 @@ main {
     border-radius: 20px;
     font-size: 20px;
     background-color: #2E4756;
+    margin-top: 2rem;
 }
 
 .restart-after-win:hover{
@@ -95,13 +96,6 @@ main {
     align-items: center;
     justify-content: space-between;   
 }
-
-
-/* .top * {
-    display: inline;
-} */
-
-
 
 .turn{
     padding: 5px;
